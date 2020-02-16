@@ -6,7 +6,7 @@ This is a compilation of web scraping jobs using python for reference. To view t
    python src\scrape_ufs_products.py
    ```
 
-2. Finding Data Scientist Jobs
+2. Finding Data Scientist Jobs (in California)
    ```
    python src\job_search.py -l california 
    ```
