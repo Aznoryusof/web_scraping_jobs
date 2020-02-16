@@ -12,9 +12,9 @@ def scrape_jobs(location=None):
     """
     if location:
         URL = f"https://www.monster.com/jobs/search/\
-                ?q=Software-Developer&where={location}"
+                ?q=Data-Scientist&where={location}"
     else:
-        URL = f"https://www.monster.com/jobs/search/?q=Software-Developer"
+        URL = f"https://www.monster.com/jobs/search/?q=Data-Scientist"
     page = requests.get(URL)
 
     soup = BeautifulSoup(page.content, "html.parser")
@@ -69,7 +69,7 @@ def print_all_jobs(results):
 # USE THE SCRIPT AS A COMMAND-LINE INTERFACE
 # ----------------------------------------------------------------------------
 my_parser = argparse.ArgumentParser(
-    prog="jobs", description="Find Developer Jobs"
+    prog="jobs", description="Find Data Science Jobs"
 )
 my_parser.add_argument(
     "-location", metavar="location", type=str, help="The location of the job"
