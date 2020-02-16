@@ -8,7 +8,7 @@ This is a compilation of web scraping jobs using python for reference. To view t
 
 2. Finding Data Scientist Jobs
    ```
-   python src\job_search.py
+   python src\job_search.py -l california 
    ```
    or
    ```

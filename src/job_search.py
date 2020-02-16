@@ -4,7 +4,7 @@ import argparse
 
 
 def scrape_jobs(location=None):
-    """Scrapes Developer job postings from Monster, optionally by location.
+    """Scrapes Data Scientist job postings from Monster, optionally by location.
     :param location: Where the job is located
     :type location: str
     :return: all job postings from first page that match the search results
