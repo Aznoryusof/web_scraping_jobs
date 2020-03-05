@@ -20,3 +20,7 @@ This is a compilation of web scraping jobs using python for reference. To view t
 - requests
 - pandas
 - BeautifulSoup
+
+# References
+https://docs.google.com/document/d/1gXKdILpTmwzvn5w7mj7NgN55zT668xrM1wNjCYJG3Mw/edit
+https://drive.google.com/open?id=1gXKdILpTmwzvn5w7mj7NgN55zT668xrM1wNjCYJG3Mw
